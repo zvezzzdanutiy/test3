@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { View, Button } from 'react-native';
 
-export default function App() {
+const Home = () => {
+  const handleTelegramButtonClick = () => {
+    window.location.href = 'https://oauth.telegram.org/auth?bot_id=7122476551:AAGRldhloWEs-_jWsEkOTMZEsXhGE0dbXWQ&scope=write&public_key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKscJrqo4aPZ+rP/PJixKqmMydgaZkMLIbbbLdNLV2W5WgQlku8TQaKDOtZVljrVuW/7j4IYtaP1KS8EwhOAUkcCAwEAAQ==&nonce=12345678&origin=http://localhost:8081&request_access=write&return_to=github.com'
+  };
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Button title="Авторизация через Telegram" onPress={handleTelegramButtonClick} />
     </View>
   );
-}
+};  
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default Home;
