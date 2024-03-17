@@ -3,7 +3,7 @@ import { View, Button } from 'react-native';
 
 const Home = () => {
   const handleTelegramButtonClick = () => {
-    window.location.href = 'https://telegram.org/js/telegram-widget.js?22&data-telegram-login=Rjaka_prikol_bot&data-size=large&data-auth-url=https://github.com/&data-request-access=write'
+    window.location.href = 'https://oauth.telegram.org/auth?bot_id=7122476551:AAGRldhloWEs-_jWsEkOTMZEsXhGE0dbXWQ&scope=write&nonce=12345678&origin=https://zvezzzdanutiythree.netlify.app/&request_access=write&return_to=github.com'
   };
 
   return (
