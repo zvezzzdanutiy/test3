@@ -3,7 +3,7 @@ import { View, Button } from 'react-native';
 
 const Home = () => {
   const handleTelegramButtonClick = () => {
-    window.location.href = 'https://oauth.telegram.org/auth?bot_id=7122476551:AAGRldhloWEs-_jWsEkOTMZEsXhGE0dbXWQ&scope=write&public_key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKscJrqo4aPZ+rP/PJixKqmMydgaZkMLIbbbLdNLV2W5WgQlku8TQaKDOtZVljrVuW/7j4IYtaP1KS8EwhOAUkcCAwEAAQ==&nonce=12345678&origin=https://zvezzzdanutiyfour.netlify.app/&request_access=write&return_to=github.com'
+    window.location.href = 'https://oauth.telegram.org/auth?bot_id=7122476551:AAGRldhloWEs-_jWsEkOTMZEsXhGE0dbXWQ&scope=write&public_key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKscJrqo4aPZ+rP/PJixKqmMydgaZkMLIbbbLdNLV2W5WgQlku8TQaKDOtZVljrVuW/7j4IYtaP1KS8EwhOAUkcCAwEAAQ==&nonce=12345678&origin=https://zvezzzdanutiyfsix.netlify.app/&request_access=write&return_to=github.com'
   };
 
   return (
